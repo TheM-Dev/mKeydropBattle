@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "mKeydropBattle",
+    "version": "1.0",
+    "description": "Chrome extension to automatically open Key-Drop free battle page for you, everytime new one pops out!",
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "tabs"
+    ],
+    "host_permissions": [
+        "*://key-drop.com/*"
+    ],
+    "action": {
+        "default_title": "Join Free Key-Drop Battle",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "img/16.png",
+        "48": "img/48.png",
+        "128": "img/128.png"
+    }
+}
